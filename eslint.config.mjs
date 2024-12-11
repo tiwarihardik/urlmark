@@ -13,7 +13,8 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
-      "prefer-const": "off",  // Disable the prefer-const rule
+      "prefer-const": "off", 
+      "no-unused-vars": "off",
     },
   },
 ];
