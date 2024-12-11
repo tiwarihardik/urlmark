@@ -51,4 +51,4 @@ export default function Home() {
   );
 }
 
-export {id, name};
+export {name};
