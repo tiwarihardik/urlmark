@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import URLComponent from "@/app/URLComponent";
 import UrlProp from "@/types";
-let name = 'user';
+
 
 export default function Home() {
   const [urls, setUrls] = useState<UrlProp[]>([]);
@@ -49,5 +49,3 @@ export default function Home() {
 
   );
 }
-
-export {name};
