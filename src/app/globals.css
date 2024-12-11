@@ -17,5 +17,53 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-monospace, Monospaced, monospace;
+}
+/* Skeleton loader styles */
+.skeleton-loader {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Skeleton element */
+.skeleton {
+  display: inline-block;
+  background-color: #918f8f;
+  border-radius: 8px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Pulse animation for skeleton loader */
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+/* Specific skeleton shape (use for headings, paragraphs, buttons, etc.) */
+.skeleton-text {
+  height: 20px;
+  width: 70%;
+}
+
+.skeleton-heading {
+  height: 40px;
+  width: 50%;
+}
+
+.skeleton-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.skeleton-container {
+  width: 100%;
 }
