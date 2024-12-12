@@ -1,7 +1,7 @@
 type UrlProp = {
-    title: string;
+    title?: string;
     url: string;
     id: string;
-    about: string;
+    description?: string;
 };
 export default UrlProp;

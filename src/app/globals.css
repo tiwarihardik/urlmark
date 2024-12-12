@@ -67,3 +67,30 @@ body {
 .skeleton-container {
   width: 100%;
 }
+
+/* For Webkit Browsers */
+body::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #1e3a8a, #4b5563); /* Gradient for scrollbar track */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #2563eb; /* Scrollbar thumb color */
+  border-radius: 10px;
+  border: 2px solid #1e293b; /* Adds a border to thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8; /* Darker shade on hover */
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin; /* Use a thin scrollbar */
+  scrollbar-color: #2563eb #1e3a8a; /* Thumb and track color */
+}
+

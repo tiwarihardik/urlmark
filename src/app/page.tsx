@@ -16,19 +16,19 @@ export default function Home() {
           title: 'Google',
           url: 'https://google.com',
           id: '1',
-          about: 'The most popular search engine.',
+         description: 'The most popular search engine.',
         },
         {
           title: 'GitHub',
           url: 'https://github.com',
           id: '2',
-          about: 'A platform for hosting and sharing code.',
+         description: 'A platform for hosting and sharing code.',
         },
         {
           title: 'Twitter',
           url: 'https://twitter.com',
           id: '3',
-          about: 'A microblogging and social networking service.',
+         description: 'A microblogging and social networking service.',
         },
       ];
 
